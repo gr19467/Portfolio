@@ -1,0 +1,24 @@
+body{
+    background-color: #9DA07C;
+}
+
+.bar{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 35vh;
+    margin: 0;
+
+    border-radius: 10px;
+    border: solid;
+    border-color: #40622E;
+}
+
+.color-palette{
+    color: #031926;
+    color: #654236;
+    color: #40622E;
+    color: #9DA07C;
+    color: #FDEDF0;
+}
