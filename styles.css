@@ -14,6 +14,60 @@ body{
     border: solid;
     border-color: #40622E;
 }
+    /*Title*/
+    .title > h1{
+        border: solid 1px;
+        border-radius: 10px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+
+        display: block;
+
+        text-align: center;
+        
+        width: 50%;
+
+        color: #40622E;
+        font-size: 400%;
+    }
+    
+    /*Nav*/
+    ul{
+        color: #40622E;
+    
+        list-style: none;
+        width: 100vw;
+        margin: auto;
+    
+        text-align: center;
+        padding-left: 0%;
+        margin-top: 5vh;
+    }
+    
+    ul>li{
+        display: inline-block;
+
+        border-style: solid;
+        border-radius: 15px;
+
+        color: #40622E;
+        font-size: 200%;
+        
+        background-color: rgb(255, 255, 255, .5);
+        width: 20vw;
+        margin-bottom: 2.5vh;
+    }
+
+    .long{
+        width: 32vw;
+    }
+
+    ul>li>a{
+        color: #40622E;
+        text-decoration: none;
+    }
 
 .color-palette{
     color: #031926;
